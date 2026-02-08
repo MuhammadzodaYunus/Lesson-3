@@ -35,6 +35,41 @@ nav{
     gap: 10px;
     font-size: 20px;
 }
+.middle-header{
+    margin-top: 230px;
+    margin-left: 70px;
+    position: relative;
+}
+.middle-header h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+.middle-header p{
+    margin-top: 30px;
+    color: #D2D2D2;
+    font-size: 20px;
+    width: 40%;
+}
+.middle-header button{
+    margin-top: 50px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 25px;
+    background-color: green;
+}
+.but-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.but-img img{
+    margin-right: 70px;
+}
+
+
+
 
 
 
@@ -57,4 +92,31 @@ nav{
         display: flex;
         gap: 200px;
     }
+    header{
+        height: 115vh;
+        background-position:90% ;
+    }
+    .middle-header{
+        margin-top: 150px;
+        margin-left: 35px;
+    }
+    .middle-header h2{
+        font-size: 38px;
+    }
+    .middle-header p{
+        width: 90%;
+        padding: 0;
+    }
+    .but-img{
+        position: relative;
+    }
+    .but-img img{
+        position: absolute;
+        top:200px;
+        left: 75%;
+    }
+    .but-img button{
+        width: 90%;
+    }
+
 }
