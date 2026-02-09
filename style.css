@@ -318,8 +318,46 @@ article{
     margin-left: 45px;
     margin-top: 50px;
 }
-
-
+.three-img2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.box1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.box2 p{
+    color: rgba(14, 158, 47, 1);
+}
+.box1 h2{
+    font-size: 32px;
+}
+.img1{
+    width: 30%;
+}
+.img1 img{
+    width: 90%;
+}
+.img1 p{
+    color: rgba(146, 147, 143, 1);
+    width: 80%;
+    margin-top: 10px;
+}
+.img1 h3{
+    margin-top: 10px;
+    color: rgba(73, 75, 68, 1);
+    width: 80%;
+    font-size: 24px;
+}
 
 
 
@@ -508,5 +546,22 @@ article{
 .buttt{
     margin-top: 50px;
     padding-bottom: 50px;
+}
+.box1{
+    gap: 50px;
+}
+.three-img2{
+    justify-content: start;
+    overflow: scroll;
+    gap: 30px;
+}
+.img1{
+    min-width: 100%;
+}
+.img1 h3{
+    width: 100%;
+}
+.img1 img{
+    min-width: 95%;
 }
 }
