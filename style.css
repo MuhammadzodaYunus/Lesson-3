@@ -237,6 +237,65 @@ article{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.p-img{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 700px;
+}
+.p-img h3{
+    font-size: 40px;
+    color: rgba(73, 75, 68, 1);
+}
+.line{
+    border-bottom: 1px solid rgba(73, 75, 68, 1);
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+}
+.four-div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.divv{
+    width: 20%;
+    padding: 20px 10px;
+    background-color: rgba(246, 246, 247, 1);
+}
+.divv h4{
+    color: rgba(73, 75, 68, 1);
+    font-size: 24px;
+}
+.divv h5{
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgba(14, 158, 47, 1);
+}
+.divv p{
+    margin-top: 30px;
+    color: rgba(146, 147, 143, 1);
+}
+.buttt{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.buttt button{
+    border: none;
+    background-color: transparent;
+    color: rgba(14, 158, 47, 1);
+}
+.line2{
+    border-bottom: 1px solid rgba(73, 75, 68, 1);
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+    color: rgb(91, 118, 20);
+}
+
 
 
 
@@ -400,5 +459,32 @@ article{
     width: 100%;
     padding: 0;
 }
+.p-img{
+    gap: 10px;
+}
+.koop{
+    margin-top: 150px;
+}
+.line2{
+    display: none;
+}
+.four-div{
+    overflow: scroll;
+    justify-content: start;
+}
+.divv{
+    min-width: 90%;
+}
 
+.divv h5{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.divv p{
+    font-size: 18px;
+}
+.buttt{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
 }
