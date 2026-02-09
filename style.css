@@ -203,6 +203,34 @@ article{
 .green-p{
     color: rgba(14, 158, 47, 1);
 }
+.up-map{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    align-items: center;
+}
+.up-map h3{
+    font-size: 40px;
+}
+.cars span{
+    color: rgba(146, 147, 143, 1);
+}
+.cars{
+    margin-bottom: 5px;
+}
+.map{
+    margin-top: 50px;
+    width: 80%;
+    padding: 0 10%;
+}
+.map img{
+    width: 80%;
+    padding: 0 10%;
+    margin: auto;
+}
+
+
 
 
 
@@ -351,4 +379,18 @@ article{
     width: 76.2%;
     margin-top: 50px;
 }
+.up-map{
+    margin-top: 400px;
+    flex-direction: column;
+    gap: 10px;
+}
+.map {
+    width: 90%;
+    padding: 0 5%;
+}
+.map img{
+    width: 100%;
+    padding: 0;
+}
+
 }
